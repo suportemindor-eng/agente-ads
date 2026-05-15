@@ -388,21 +388,21 @@ def rodar_relatorios():
 
 # ── JOB 2: alerta de saldo a cada 2h ───────────────────────────────────────
 
-alertasenviados_hoje: set = set()
+alertas_enviados_hoje: set = set()
 
-ultimoreset_dia: int = -1
+ultimo_reset_dia: int = -1
 
 def verificar_saldos_criticos():
 
-    global alertasenviados_hoje, ultimoreset_dia
+    global alertas_enviados_hoje, ultimo_reset_dia
 
     hoje_dia = date.today().day
 
-    if hoje_dia != ultimoreset_dia:
+    if hoje_dia != ultimo_reset_dia:
 
-        alertasenviados_hoje = set()
+        alertas_enviados_hoje = set()
 
-        ultimoreset_dia = hoje_dia
+        ultimo_reset_dia = hoje_dia
 
     log.info("🔍 Verificando saldos críticos...")
 
@@ -420,7 +420,7 @@ def verificar_saldos_criticos():
 
         alerta_baixo = cliente.get("alerta_saldo_baixo", 500)
 
-        if nome in alertasenviados_hoje:
+        if nome in alertas_enviados_hoje:
 
             continue
 
@@ -440,7 +440,7 @@ def verificar_saldos_criticos():
 
                 if enviar_whatsapp(cliente["whatsapp_group_id"], mensagem):
 
-                    alertasenviados_hoje.add(nome)
+                    alertas_enviados_hoje.add(nome)
 
         except Exception as e:
 
