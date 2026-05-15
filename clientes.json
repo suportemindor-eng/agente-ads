@@ -1,10 +1,268 @@
 [
   {
-    "nome": "Nome do Cliente",
-    "meta_account_id": "act_XXXXXXXXXX",
-    "meta_access_token": "EAAxxxxxxxxxx",
-    "whatsapp_group_id": "120363XXXXXXXXXX@g.us",
-    "meta_mensal": 5000.00,
-    "alerta_saldo_baixo": 500.00
+    "nome": "RV",
+    "meta_account_id": "act_2376190859492192",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363346982203269@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "QUEIROZ COMP.",
+    "meta_account_id": "act_1714109155729013",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363402811620313@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "MAGNATA",
+    "meta_account_id": "act_1566182064216361",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363285949119267@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "NM",
+    "meta_account_id": "act_2745752065578133",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363320112119429@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "JOGADOR KIDS",
+    "meta_account_id": "act_2088347992012377",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363151295730955@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "KJ",
+    "meta_account_id": "act_695542405824656",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363268814570433@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "AF SELECT",
+    "meta_account_id": "act_8838032762904885",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363407724029989@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "LIMAO",
+    "meta_account_id": "act_1577088256137391",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363286925989984@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "BIEL DOS IPHONES",
+    "meta_account_id": "act_1676507646586812",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363285832203580@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "GRИФES STORE",
+    "meta_account_id": "act_447570211142997",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363407970520028@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "STOP CAR",
+    "meta_account_id": "act_790874785631912",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363284337358472@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "BL",
+    "meta_account_id": "act_1326775989273618",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363298791231577@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "VITORIOSO 18K",
+    "meta_account_id": "act_298384093291235",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363284160004205@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "LOPES STORE",
+    "meta_account_id": "act_810326828260666",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363202817520246@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "BIEL DAS MARCAS",
+    "meta_account_id": "act_1258381202525562",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363402640217667@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "KAMIKASE",
+    "meta_account_id": "act_761921246264092",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363406545201437@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "DEYSE IPHONES",
+    "meta_account_id": "act_166578096326224",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363284160004205@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "UNI. EQUESTRE",
+    "meta_account_id": "act_579918184128624",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363313322168317@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "DECK OUTLET",
+    "meta_account_id": "act_765726572795269",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363423850406040@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "DEYSE LUPAS",
+    "meta_account_id": "act_804460994499924",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363409638260650@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "JOGADOR CARO",
+    "meta_account_id": "act_1027101715373407",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363403167092290@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "DICHAVA MOTO",
+    "meta_account_id": "act_1092303325662191",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363398391691588@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "GROW FOR GIRL",
+    "meta_account_id": "act_1471423594124626",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363407040153359@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "MUNDO PHONE",
+    "meta_account_id": "act_1246653106665984",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363418202545180@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "2M",
+    "meta_account_id": "act_1931203864163321",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363401520041758@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "FV",
+    "meta_account_id": "act_707504992430768",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363405981595681@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "GABR",
+    "meta_account_id": "act_837947148059144",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363401166189819@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "GLOW STORE",
+    "meta_account_id": "act_1864053377713255",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363303992189363@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "CHEFÃO",
+    "meta_account_id": "act_986404862880597",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363285156747420@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "THEO",
+    "meta_account_id": "act_1157533568765315",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363032195337849@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "GG IMPORTS",
+    "meta_account_id": "act_658316570400894",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363330025421942@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "GRECCO",
+    "meta_account_id": "act_374382125671598",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363408843327576@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "STATUS",
+    "meta_account_id": "act_500845561722749",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363394467577842@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "GR IMPORTS",
+    "meta_account_id": "act_1036273487642988",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363417385053315@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "NEW IMPORTS",
+    "meta_account_id": "act_1267396387885743",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363283432983199@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "VILA D JHONY",
+    "meta_account_id": "act_1854459591699966",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363423400451977@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "JOIA RARA",
+    "meta_account_id": "act_2003620863377609",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363400683342007@g.us",
+    "alerta_saldo_baixo": 100
+  },
+  {
+    "nome": "GRD",
+    "meta_account_id": "act_1189009495945841",
+    "meta_access_token": "EAATDW7JTy3sBRX3ZC4etZBliUR7GkjjAXlyl6OP87AfFMwn1d8eyvC958psfxx7J6ce0pVshXENIlR6jZA6H01bylPK9R0YgPJWPkk7H7pZATjoqNPZBBj4FSM6cKxGZCGArto2RGDMdGG9DTDZA6OQK96LNlER40Axz94b4ZAbjZAIHQGkRltZC2ybb5N1YMEo5rNJwZDZD",
+    "whatsapp_group_id": "120363324446329962@g.us",
+    "alerta_saldo_baixo": 100
   }
 ]
