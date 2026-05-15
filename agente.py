@@ -138,7 +138,8 @@ def enviar_whatsapp(numero_ou_grupo, mensagem):
         log.error("ZAPI nao configurado.")
         return False
     url = "https://api.z-api.io/instances/" + ZAPI_INSTANCE_ID + "/token/" + ZAPI_CLIENT_TOKEN + "/send-text"
-    payload = {"phone": numero_ou_grupo, "message": mensagem}
+    phone = numero_ou_grupo.replace("@g.us", "").replace("@s.whatsapp.net", "")
+    payload = {"phone": phone, "message": mensagem}
     try:
         resp = requests.post(url, json=payload, timeout=15)
         resp.raise_for_status()
