@@ -86,10 +86,15 @@ def bloco_limite(dados: dict, simbolo: str) -> str:
     else:
         status = f"🟢 {pct:.0f}% do limite utilizado"
     return (
-        f"💳 Limite de pagamento: {simbolo} {spend_cap:,.2f}\n"
-        f"📤 Gasto no ciclo: {simbolo} {amount_spent:,.2f}\n"
-        f"📌 Falta para bater o limite: {simbolo} {falta:,.2f}\n"
-        f"{status}\n\n"
+        f"💳 Limite de pagamento: {simbolo} {spend_cap:,.2f}
+"
+        f"📤 Gasto no ciclo: {simbolo} {amount_spent:,.2f}
+"
+        f"📌 Falta para bater o limite: {simbolo} {falta:,.2f}
+"
+        f"{status}
+
+"
     )
 
 # ── FORMATADORES ────────────────────────────────────────────────────────────
@@ -98,33 +103,51 @@ def formatar_relatorio(nome_cliente: str, dados: dict, alerta_baixo: float) -> s
     simbolo = "R$" if dados["moeda"] == "BRL" else dados["moeda"]
     saldo   = dados["saldo_disponivel"]
     alerta_saldo = (
-        f"⚠️ SALDO BAIXO! Apenas {simbolo} {saldo:,.2f} disponível.\n\n"
+        f"⚠️ SALDO BAIXO! Apenas {simbolo} {saldo:,.2f} disponível.
+
+"
         if saldo < alerta_baixo else ""
     )
     return (
-        f"📊 Relatório diário — {nome_cliente}\n"
-        f"_{dados['nome_conta']}_\n"
-        f"_{datetime.now().strftime('%d/%m/%Y às %H:%M')}_\n\n"
+        f"📊 Relatório diário — {nome_cliente}
+"
+        f"_{dados['nome_conta']}_
+"
+        f"_{datetime.now().strftime('%d/%m/%Y às %H:%M')}_
+
+"
         f"{alerta_saldo}"
-        f"📆 Gasto ontem ({dados['data_ontem']}): {simbolo} {dados['gasto_ontem']:,.2f}\n"
-        f"📅 Gasto no mês: {simbolo} {dados['gasto_mes']:,.2f}\n"
-        f"💰 Saldo disponível: {simbolo} {saldo:,.2f}\n\n"
+        f"📆 Gasto ontem ({dados['data_ontem']}): {simbolo} {dados['gasto_ontem']:,.2f}
+"
+        f"📅 Gasto no mês: {simbolo} {dados['gasto_mes']:,.2f}
+"
+        f"💰 Saldo disponível: {simbolo} {saldo:,.2f}
+
+"
         f"{bloco_limite(dados, simbolo)}"
-        f"_Enviado automaticamente pelo Agente de Ads_ 🤖"
+        f"_Enviado automaticamente pelo Alfred_ 🤖"
     )
 
 def formatar_resumo_semanal_sexta(nome_cliente: str, dados: dict) -> str:
     """Enviado no grupo do cliente toda sexta — gasto de seg a sex."""
     simbolo = "R$" if dados["moeda"] == "BRL" else dados["moeda"]
     return (
-        f"📋 Resumo da semana — {nome_cliente}\n"
-        f"_{dados['nome_conta']}_\n"
-        f"_{dados['segunda_atual']} a {dados['sexta_atual']}_\n\n"
-        f"💸 Total gasto na semana: {simbolo} {dados['gasto_semana_atual']:,.2f}\n"
-        f"📅 Gasto no mês: {simbolo} {dados['gasto_mes']:,.2f}\n"
-        f"💰 Saldo disponível: {simbolo} {dados['saldo_disponivel']:,.2f}\n\n"
+        f"📋 Resumo da semana — {nome_cliente}
+"
+        f"_{dados['nome_conta']}_
+"
+        f"_{dados['segunda_atual']} a {dados['sexta_atual']}_
+
+"
+        f"💸 Total gasto na semana: {simbolo} {dados['gasto_semana_atual']:,.2f}
+"
+        f"📅 Gasto no mês: {simbolo} {dados['gasto_mes']:,.2f}
+"
+        f"💰 Saldo disponível: {simbolo} {dados['saldo_disponivel']:,.2f}
+
+"
         f"{bloco_limite(dados, simbolo)}"
-        f"_Resumo semanal automático_ 🤖"
+        f"_Resumo semanal — Alfred_ 🤖"
     )
 
 def formatar_alerta_urgente(nome_cliente: str, dados: dict, alerta_baixo: float) -> str:
@@ -132,21 +155,37 @@ def formatar_alerta_urgente(nome_cliente: str, dados: dict, alerta_baixo: float)
     saldo   = dados["saldo_disponivel"]
     if saldo <= 0:
         corpo = (
-            f"🔴 SALDO ZERADO!\n\n"
-            f"Os anúncios podem ter parado agora.\n\n"
-            f"💰 Saldo atual: {simbolo} 0,00\n"
+            f"🔴 SALDO ZERADO!
+
+"
+            f"Os anúncios podem ter parado agora.
+
+"
+            f"💰 Saldo atual: {simbolo} 0,00
+"
         )
     else:
         corpo = (
-            f"⚠️ SALDO CRÍTICO!\n\n"
-            f"O saldo está abaixo do limite de alerta.\n\n"
-            f"💰 Saldo atual: {simbolo} {saldo:,.2f}\n"
-            f"⚠️ Limite de alerta: {simbolo} {alerta_baixo:,.2f}\n"
+            f"⚠️ SALDO CRÍTICO!
+
+"
+            f"O saldo está abaixo do limite de alerta.
+
+"
+            f"💰 Saldo atual: {simbolo} {saldo:,.2f}
+"
+            f"⚠️ Limite de alerta: {simbolo} {alerta_baixo:,.2f}
+"
         )
     return (
-        f"🚨 ALERTA — {nome_cliente}\n\n"
+        f"🚨 ALERTA — {nome_cliente}
+
+"
         f"{corpo}"
-        f"\n*Recarregue o saldo para evitar que os anúncios parem.*\n\n"
+        f"
+*Recarregue o saldo para evitar que os anúncios parem.*
+
+"
         f"_{datetime.now().strftime('%d/%m/%Y às %H:%M')}_"
     )
 
@@ -168,14 +207,23 @@ def formatar_resumo_segunda(clientes_dados: list) -> str:
         alerta = " ⚠️" if saldo <= 0 else (" 🔴" if saldo < item["alerta_baixo"] else "")
         linhas.append(f"• {nome}: {simbolo} {gasto:,.2f}{alerta}")
 
-    corpo = "\n".join(linhas)
+    corpo = "
+".join(linhas)
     return (
-        f"📊 Resumo semanal — todos os clientes\n"
-        f"_{segunda_passada.strftime('%d/%m')} a {domingo_passado.strftime('%d/%m/%Y')}_\n\n"
-        f"{corpo}\n\n"
-        f"💸 Total geral: R$ {total_geral:,.2f}\n\n"
-        f"_⚠️ = saldo baixo  |  🔴 = saldo zerado_\n"
-        f"_Gerado automaticamente_ 🤖"
+        f"📊 Resumo semanal — todos os clientes
+"
+        f"_{segunda_passada.strftime('%d/%m')} a {domingo_passado.strftime('%d/%m/%Y')}_
+
+"
+        f"{corpo}
+
+"
+        f"💸 Total geral: R$ {total_geral:,.2f}
+
+"
+        f"_⚠️ = saldo baixo  |  🔴 = saldo zerado_
+"
+        f"_Gerado automaticamente pelo Alfred_ 🤖"
     )
 
 # ── ENVIO ───────────────────────────────────────────────────────────────────
@@ -217,6 +265,7 @@ def rodar_relatorios():
                             formatar_relatorio(nome, dados, cliente.get("alerta_saldo_baixo", 500)))
         except Exception as e:
             log.error(f"Erro em {nome}: {e}")
+
     log.info("✅ Relatórios concluídos.")
 
 # ── JOB 2: alerta de saldo a cada 2h ───────────────────────────────────────
@@ -226,6 +275,7 @@ ultimo_reset_dia: int = -1
 
 def verificar_saldos_criticos():
     global alertas_enviados_hoje, ultimo_reset_dia
+
     hoje_dia = date.today().day
     if hoje_dia != ultimo_reset_dia:
         alertas_enviados_hoje = set()
@@ -245,6 +295,7 @@ def verificar_saldos_criticos():
         try:
             dados = buscar_dados_meta(cliente["meta_account_id"], cliente["meta_access_token"])
             saldo = dados["saldo_disponivel"]
+            # Dispara alerta se saldo zerou OU está abaixo do limite
             if saldo <= 0 or saldo < alerta_baixo:
                 log.warning(f"🚨 Saldo crítico: {nome} — R$ {saldo:.2f}")
                 mensagem = formatar_alerta_urgente(nome, dados, alerta_baixo)
@@ -252,6 +303,7 @@ def verificar_saldos_criticos():
                     alertas_enviados_hoje.add(nome)
         except Exception as e:
             log.error(f"Erro ao verificar {nome}: {e}")
+
     log.info("✅ Verificação concluída.")
 
 # ── JOB 3: resumo semanal no grupo do cliente — toda sexta às 9h ───────────
@@ -274,6 +326,7 @@ def rodar_resumo_semanal_sexta():
                             formatar_resumo_semanal_sexta(nome, dados))
         except Exception as e:
             log.error(f"Erro em {nome}: {e}")
+
     log.info("✅ Resumos semanais concluídos.")
 
 # ── JOB 4: resumo consolidado para você — toda segunda às 8:30 ─────────────
@@ -305,12 +358,13 @@ def rodar_resumo_segunda():
         mensagem = formatar_resumo_segunda(clientes_dados)
         for numero in NUMEROS_SEGUNDA:
             enviar_whatsapp(numero, mensagem)
+
     log.info("✅ Resumo de segunda concluído.")
 
 # ── AGENDAMENTO ─────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    log.info("Agente de Ads iniciado.")
+    log.info("Alfred iniciado.")
 
     if os.getenv("RODAR_AGORA", "false").lower() == "true":
         rodar_relatorios()
