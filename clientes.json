@@ -1,0 +1,10 @@
+[
+  {
+    "nome": "Nome do Cliente",
+    "meta_account_id": "act_XXXXXXXXXX",
+    "meta_access_token": "EAAxxxxxxxxxx",
+    "whatsapp_group_id": "120363XXXXXXXXXX@g.us",
+    "meta_mensal": 5000.00,
+    "alerta_saldo_baixo": 500.00
+  }
+]
